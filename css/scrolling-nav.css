@@ -60,3 +60,10 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #eee;
 }
+
+.separator{
+	height:120px;
+}
+.photoseparator{
+	height:30px;
+}

@@ -6787,7 +6787,7 @@ button.close {
   background-image: url("../img/Projet_newkid.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 350px;
 }
 .newkidtitre {
   font-family: "SensationsandQualities";
@@ -6805,5 +6805,45 @@ button.close {
 .photo{
   height: 150px;
   width: 191px;
+}
+
+.carambar{
+  background-image: url("../img/Projetcarambar.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.carambartitre {
+  font-family: "SensationsandQualities";
+  font-size: 170px;
+  margin-right: 292px;
+  margin-top: -33px;
+}
+.carambartext {
+  text-align: right;
+  font-size: 20px;
+  margin-right: 273px;
+  margin-top: -20px;
+  text-align: right;
+}
+
+.swan{
+  background-image: url("../img/Projetswan.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+.swantitre {
+  font-family: "SensationsandQualities";
+  font-size: 170px;
+  margin-right: 130px;
+  margin-top: -67px;
+}
+.swantext {
+  font-size: 20px;
+  margin-top: -45px;
+  padding-left: 322px;
+  padding-right: 100px;
+  text-align: center;
 }
 /*# Code Sabrine */
