@@ -51,7 +51,8 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background-image: url("../img/BG_book.jpg");
+	background-size: cover;
 }
 
 .contact-section {

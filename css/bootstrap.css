@@ -6846,4 +6846,39 @@ button.close {
   padding-right: 100px;
   text-align: center;
 }
+.bookcontainer{
+	width:100%;
+}
+.bookrow {
+  margin-top: -100px;
+}
+.booktitre {
+  font-family: "SensationsandQualities";
+  font-size: 350px;
+  text-align:center;
+}
+.booksoustitre {
+	margin-top: -130px;
+	text-align:center;
+}
+.book2017 {
+	background-image: url("../img/book_1617.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 585px;
+	margin-top:-3%;
+}
+.book2016 {
+	background-image: url("../img/book_1516.png");
+	background-repeat: no-repeat;
+	background-size: 85% auto;
+    height: 634px;
+}
+.book2015 {
+	background-image: url("../img/book_1415.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 585px;
+	margin-top:4%;
+}
 /*# Code Sabrine */
