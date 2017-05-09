@@ -61,6 +61,7 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background-image: url("../img/BG_contact.JPG");
 	background-size: cover;
+	background-position:center;
 }
 
 .separator{
