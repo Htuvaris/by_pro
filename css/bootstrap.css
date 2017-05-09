@@ -6881,4 +6881,39 @@ button.close {
 	height: 585px;
 	margin-top:4%;
 }
+
+.contacttitre {
+  font-family: "SensationsandQualities";
+  font-size: 275px;
+  color:black;
+}
+
+#contactinfo {
+	height: 100px;
+    position: relative;
+    width: 510px;
+}
+
+#contactbloc{
+	  background: #FFF;
+  filter: alpha(opacity=60);
+  /* IE */
+  -moz-opacity: 0.6;
+  /* Mozilla */
+  opacity: 0.6;
+  /* CSS3 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#contacttext{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 /*# Code Sabrine */
