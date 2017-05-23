@@ -32,32 +32,37 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 100%;
+    height: auto;
     padding-top: 170px;
     background-image: url("../img/BG.jpg");
 	background-size: cover;
+	background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+
 }
 
 .portfolio-section {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
     text-align: right;
     background-image: url("../img/BG_Portfolio.jpg");
-    overflow: auto;
 	background-size: cover;
 }
 
 .book-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
     background-image: url("../img/BG_book.jpg");
 	background-size: cover;
+	min-height:100%;
+	min-width:100%;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
+   min-height:100%;
+	min-width:100%;
     text-align: center;
     background-image: url("../img/BG_contact.JPG");
 	background-size: cover;
