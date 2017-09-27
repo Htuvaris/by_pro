@@ -6784,12 +6784,7 @@ button.close {
 .portfoliodate {
   font-size: 4vw;
 }
-.newkid{
-  background-image: url("../img/Projet_newkid.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 350px;
-}
+
 .newkidtitre {
   font-family: "SensationsandQualities";
   font-size: 170px;
@@ -6828,12 +6823,7 @@ button.close {
   text-align: right;
 }
 
-.swan{
-  background-image: url("../img/Projetswan.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 350px;
-}
+
 .swantitre {
   font-family: "SensationsandQualities";
   font-size: 170px;
@@ -6928,25 +6918,61 @@ background: #FFF;
 }
 
 @media screen and (max-width: 767px) {   
-    .carambar{
-    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
-		 background-size: 100%;
+.newkid{
+  background-image: url("../img/Projetnewkidvertical.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1090px;
+}
+}
+
+@media screen and (min-width: 768px) {      
+.newkid{
+  background-image: url("../img/Projetnewkidvertical.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1090px;
+}
+} 
+@media (min-width: 992px) {      
+.newkid{
+  background-image: url("../img/Projetnewkid.png");
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 400px;
+}
+}
+@media (min-width: 1200px) {    
+.newkid{
+  background-image: url("../img/Projetnewkid.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+}
+
+
+
+@media screen and (max-width: 767px) {   
+    .carambar{
+    	background-image: url("../img/Projetcarambarvertical.png");
+		 background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1090px;
     } 
 }
 
 @media screen and (min-width: 768px) {      
     .carambar{      
-    	background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png);
+    	background-image: url("../img/Projetcarambarvertical.png");
 		 background-size: 100%;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 1090px;
     } 
 } 
 @media (min-width: 992px) {      
       .carambar{        
-          background-image: url(http://subtlepatterns.com/patterns/paisley.png);
+          background-image: url("../img/Projetcarambar.png");
 		   background-size: 100%;
   background-repeat: no-repeat;
   height: 400px;
@@ -6954,11 +6980,45 @@ background: #FFF;
 }
 @media (min-width: 1200px) {    
      .carambar{         
-         background-image: url(http://subtlepatterns.com/patterns/paisley.png);
+         background-image: url("../img/Projetcarambar.png");
 		  background-size: 100%;
   background-repeat: no-repeat;
   height: 400px;
      } 
+}
+
+@media screen and (max-width: 767px) {   
+.swan{
+  background-image: url("../img/Projetswanvertical.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1210px;
+}
+}
+
+@media screen and (min-width: 768px) {      
+.swan{
+  background-image: url("../img/Projetswanvertical.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1210px;
+}
+} 
+@media (min-width: 992px) {      
+.swan{
+  background-image: url("../img/Projetswan.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+}
+@media (min-width: 1200px) {    
+.swan{
+  background-image: url("../img/Projetswan.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 350px;
+}
 }
 
 /*# Code Sabrine */
