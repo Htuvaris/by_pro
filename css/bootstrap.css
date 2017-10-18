@@ -1084,7 +1084,7 @@ html {
 body {
   font-family: "fashionism", fashionism;
   font-size: 34px;
-  line-height: 1.42857143;
+  /*line-height: 1.42857143;*/
   color: #333;
   background-color: #fff;
 }
@@ -6915,6 +6915,7 @@ background: #FFF;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	color:black;
 }
 
 @media screen and (max-width: 767px) {   
@@ -7020,5 +7021,32 @@ background: #FFF;
   height: 350px;
 }
 }
+
+/* Container holding the image and the text */
+.container_test {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+	position: absolute;
+	bottom: 77px;
+	left: 273px;
+}
+
+.spanbook2017 {
+	font-size:25px;
+}
+.visualiser {
+	font-size:20px;
+}
+
+a.link_color{
+	color:white;
+}
+
+
 
 /*# Code Sabrine */
